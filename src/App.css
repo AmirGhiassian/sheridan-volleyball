@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@75..100,400..700&family=Lobster&display=swap');
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.app {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+  min-height: 100vh;      /* Ensures it takes the full viewport height */
+  flex-direction: column; /* Makes items stack vertically */
+}
+
+.app-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.motion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.ball-img, .insta-img, .clock-img {
+  margin-bottom: 10px;
+}
+
+.round-me {
+  border-radius: 70px;
+}
+
+.app-col {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.motion-container p {
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  font-style: normal;
+}
+
+.times-table table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures no gaps between cells */
+}
+
+.times-table th,
+.times-table td {
+  padding: 20px; /* Increase padding for larger table cells */
+  text-align: left;
+  border: none; /* Remove the border */
+  font-size: 1.2em; /* Larger font size */
+}
+
+.times-table tr:hover {
+  background-color: #f1f1f1; /* Light grey on hover for better readability */
+}
+
+.times-table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  border: none; /* Ensure no border on header cells */
+}
+.times-table .back-button {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  padding: 15px; /* Larger button */
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.1em; /* Larger button text size */
+}
+
+.times-table .back-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
